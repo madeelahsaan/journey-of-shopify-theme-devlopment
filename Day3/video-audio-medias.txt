@@ -1,0 +1,25 @@
+video
+src
+controls
+autoplay
+loop
+muted
+poster
+width/height
+------------------
+------------------
+Audio
+src
+controls
+autoplay
+loop
+muted
+preload
+------------------
+------------------
+SVG
+xmlnx="http://www.w3.org/2000/svg" save this in svg tag for creat svg image
+------------------
+------------------
+iframe
+web/youtube video
