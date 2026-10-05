@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+
+header{
+    background-color: aqua;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav > ul {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+nav > ul > li{
+    display: inline-block;
+    padding: 20px;
+}
+nav{
+    border: 2px solid gainsboro;
+    border-radius: 50px;
+}
+header > button{
+    padding: 12px 20px;
+    background-color: rgb(247, 162, 101);
+    color: white;
+    margin-right: 20px;
+    border-radius: 25px;
+}
