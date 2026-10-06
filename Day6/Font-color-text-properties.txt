@@ -1,0 +1,26 @@
+font
+------------------------
+font-style
+font-weight
+font-size
+font-family
+text-decoration
+color
+line-height
+letter spacing
+text-tranform
+text-decoration-color
+test-decoration-style
+text-decoration-thick:7px;
+text-indent:45px;
+text-overflow
+text-align
+word-break
+
+------------------------
+google font
+hello i am good
+poppins
+------------------------
+Colors
+
