@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Outine and shadow</title>
+    <style>
+        div{
+            width:400px;
+            height: 20px;
+            border: 1px solid black;
+            padding: 5px;
+            margin: 50px;
+        }
+        .shadow{
+            /* box-shadow: 5px 10px 15px 5px black; */
+            box-shadow: 5px 10px 5px 1px #00000063;
+        }
+
+        p{
+            text-shadow: 5px 5px 5px lightblue;
+        }
+
+        .outline{
+            outline: 1px solid red;
+            outline-style: dashed;
+            outline-offset: 13px; /* distance from border */
+        }
+
+    </style>
+</head>
+<body>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem ab, accusamus necessitatibus mollitia assumenda molestias libero suscipit eius placeat? Quibusdam labore cumque error quis ratione?</p>
+    
+    <!-- box-shadow -->
+    <div class="shadow">i am box</div>
+
+    <!-- outline -->
+     <div class="outline">I am div for outline</div>
+</body>
+</html>

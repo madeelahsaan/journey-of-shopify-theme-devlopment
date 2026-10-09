@@ -1,0 +1,22 @@
+Diplay
+---------------------
+display : inline (top-paddind and width doesn't work on it)
+display : inline-block (for top-padding and width use it)
+display : none
+display : flex;
+display : inline-flex;
+display : grid;
+visibility : hidden;
+--------------------
+outline style
+outline : 2px solid black;
+outline-offset : 13px;
+outline follows border for cerve;
+--------------------
+shadow
+box-shadow: h-offset v-offset blur spread color;
+box-shadow: 5px 5px 15px 5px #888888;
+
+text-shadow:h-offset v-offset blur color;
+text-shadow: 5px 5px 15px  #888888;
+--------------------

@@ -1,0 +1,29 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        .box {
+            width: 300px;
+            border: 1px solid black;
+            padding: 10px;
+            margin: 10px;
+        }
+
+        .box1 {
+            display: inline;
+            background-color: lightblue;
+        }
+
+        .box2 {
+            /* display: inline-block; */
+            background-color: lightgreen;
+            margin: 10px;
+        }
+        span{
+            border: 1px solid black;
+            padding: 5px;
+            margin: 5px;
+            background-color: lightcoral;
+        }
