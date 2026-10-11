@@ -1,0 +1,28 @@
+div{
+    border: 1px solid black;
+    width: 20vw;
+    height: 20vh;
+    margin: 50px;
+}
+
+.box1{
+    overflow: scroll;
+}
+.box2{
+    overflow: hidden;
+}
+.box3{
+    overflow:auto;
+}
+.box4{
+    overflow:auto;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.box5{
+    overflow: clip;
+}
+
+.box6{
+    overflow: scroll hidden;
+}

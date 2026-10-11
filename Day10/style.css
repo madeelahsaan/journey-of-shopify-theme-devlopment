@@ -1,0 +1,19 @@
+li{
+    border: 1px solid black;
+}
+.list1 li{
+    list-style: square;
+    list-style-position:inside;
+
+}
+.list2{
+    list-style-position: outside ;
+}
+
+.list3{
+    display: flex;
+}
+.list3 li{
+    list-style: none;
+    padding: 20px;
+}
