@@ -1,0 +1,8 @@
+position
+--------------------------
+z-index
+relative top,bottom.right,left form own position
+absolute positioned at nearest position element and rmove it's position
+fixed
+sticky
+transform, filter, or prespective properties make element appear as positioned
