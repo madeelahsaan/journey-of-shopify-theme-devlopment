@@ -1,6 +1,6 @@
 .box:first-child{}
 .box:first-line{}
-.box:first-word{}
+
 .box:first-letter{}
 --------------------------
 [data-color = "primary"]{}
