@@ -1,0 +1,19 @@
+.box:first-child{}
+.box:first-line{}
+.box:first-word{}
+.box:first-letter{}
+--------------------------
+[data-color = "primary"]{}
+
+p,a,div{} use to style all element p a div
+
+nth-child(even/old or 1,2,3,4){}
+nth-last-child{}
+--------------------------
+::before
+::after
+--------------------------
+::selection
+--------------------------
+input::placeholder{
+color:xyz;}

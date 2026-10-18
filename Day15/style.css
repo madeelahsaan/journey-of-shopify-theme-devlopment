@@ -1,0 +1,51 @@
+/* .cont:first-child{
+    background-color: skyblue;
+} */
+/* .box:first-child{
+    background-color: skyblue;
+ } */
+.box:first-letter {
+    font-size: 50px;
+    color: brown;
+}
+
+.cont:first-line {
+    border: 1px solid black;
+    padding: 2px;
+    background-color: aqua;
+}
+
+/* ------------------------------------------------ */
+
+.box:nth-child(even) {
+    background-color: blueviolet;
+}
+
+.box:nth-child(3) {
+    border: 1px solid black;
+    margin: 2px;
+}
+
+/* -------------------------------------------------- */
+.cont::before{
+    content: "I use before selector";
+}
+
+.cont::after{
+    content: "I use After Selector";
+}
+/* -------------------------------------------------- */
+
+.cont::selection{
+    color: cyan;
+    background-color: black;
+}
+
+/* -------------------------------------------------- */
+input::placeholder{
+    color: blue;
+    font-size: 20px;
+}
+input{
+    margin: 5px;
+}

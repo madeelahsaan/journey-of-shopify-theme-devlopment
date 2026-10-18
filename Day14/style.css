@@ -1,0 +1,22 @@
+.cont{
+    border: 1px solid black;
+    padding: 2px;
+    display: flow-root;/* Use to fix overflow using float & clear  */
+}
+img{
+    float: right;
+    /* float: left; */
+}
+.box{
+    border: 2px solid red;
+    margin: 1px;
+    padding: 5px;
+}
+.box p{
+    margin: 0;
+}
+.box3{
+    clear: left; /* anti float */
+    /* clear: right; */ /* use anitfloat at right side */
+    /* clear: both; */ /* use anitfloat at both sides */
+}
