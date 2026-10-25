@@ -1,0 +1,9 @@
+.ma-grid{
+    width: 80vw;
+    height: 90vh;
+    border: 1px solid black;
+}
+.ma-grid{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}

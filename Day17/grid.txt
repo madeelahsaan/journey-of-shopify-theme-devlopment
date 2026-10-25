@@ -1,0 +1,25 @@
+grid-template-column : 120px 250px;
+		     1st-col sec-col
+grid-row : 1/4; child
+grid-row : 1/3; child
+
+--------------------------
+gird-template-area: "nav nav nav"
+		    "side article article";
+.item-1{
+	grid-area: nav;
+}
+--------------------------
+grid-temp-col:1fr 1fr 1fr;
+grid-temp-col:repaeat(4, 1fr);
+grid-temp-col:repaeat(4, minmax(100px,1fr));
+gap:xyz;
+row-gap;
+col-gap;
+--------------------------
+align-item;
+justify-content;
+all flex & grid properties are same.
+justify-item; also use in child
+--------------------------
+place-content:center;use where we need 1 line code against justify and align
