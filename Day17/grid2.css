@@ -6,4 +6,34 @@
 .ma-grid{
     display: grid;
     grid-template-columns: repeat(4,1fr);
+    grid-template-rows: repeat(5,1fr);
+    /* justify-items: center;
+    align-items: center; */
+    grid-template-areas: "nav nav nav nav"
+                        "scroll main main main"
+                        "scroll main main main"
+                        "scroll article article article"
+                        "footer footer footer footer";
+}
+.box1{
+    /* width: 100%;
+    height: 100%; */
+    background-color: aqua;
+    grid-area: nav;
+}
+.box2{
+    background-color: rgb(255, 0, 255);
+    grid-area: scroll;
+}
+.box3{
+    background-color: rgb(255, 127, 127);
+    grid-area: main;
+}
+.box4{
+    background-color: rgb(250, 203, 132);
+    grid-area: article;
+}
+.box5{
+    background-color: rgb(95, 210, 236);
+    grid-area: footer;
 }
