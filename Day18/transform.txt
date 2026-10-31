@@ -1,0 +1,11 @@
+transform: rotate(45deg)
+transform: rotate(0.25turn)1turn=360deg
+transform: rotateX(20deg)
+
+transform : skew(5deg)
+transform : skewY(10deg)
+
+transform :scale()
+tranform : translateX(25%)
+tranform : translateX(-25%)
+tranform : translateY(25%)
